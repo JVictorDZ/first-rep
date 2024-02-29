@@ -1,0 +1,48 @@
+.teste {
+    width: 511.8px;
+    height: fit-content;
+    background-color: rgb(215, 232, 247);
+    border: 5px solid black;
+    border-radius: 40px;
+    font-family: monospace;
+    margin: 10px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    
+}
+ img {
+    height: 100px;
+    width: 100px;
+ }
+
+.texto1 {
+    font-size: large;
+    color: black;
+    margin-left: 5%;
+
+}
+
+
+.nomespan {
+    color: rgb(0, 0, 0)
+}
+.maintitle {
+    margin-left: 5% ;
+ }
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 2%;
+}
+
+i {
+    background-color: aliceblue;
+}
+
