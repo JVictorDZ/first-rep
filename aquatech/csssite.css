@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: #def3f6;
+}
+
+.header{
+    border: 3px solid #32b9cb;
+    background-color: azure;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+.titulo {
+    color: #32b9cb;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e3b062;
+}
+
+
