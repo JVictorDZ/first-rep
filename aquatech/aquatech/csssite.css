@@ -100,3 +100,98 @@ body{
     font-weight: bold;
     padding: 40px;
 }
+
+.log {
+     display: flex;
+     color: black;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5%;
+  width: 400px; 
+  margin: 0 auto; 
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom: 5%;
+  background-image:  linear-gradient(to bottom right, #8dc7ca,#72afe0, #AEC6CF);
+  border: solid 3px blue;
+  animation: 5s anima2;
+  animation:  5s anima;
+
+}
+
+@keyframes anima {
+    from {
+        transform: translateX(-100%);
+    } to{
+        transform: translateX(center);
+    }
+}
+
+
+@keyframes anima2 {
+    from{
+        transform: translateX(100%);
+    }to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+
+
+#mail {
+    margin-top: 2%;
+    margin: 5%;
+    border-radius: 5px 15px;
+    border: solid 3px blue;
+    font-size: medium;
+    padding: 2.5%;
+}
+
+#pass {
+    margin: 5%;
+    border-radius: 5px 15px;
+    border: solid 3px blue;
+    font-size: medium;
+    padding: 2.5%;
+
+
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    background-image: linear-gradient(rgb(95, 95, 255), rgb(60, 60, 255), blue);
+    font-weight: bold;
+    
+}
+
+@keyframes animabutton {
+    from {
+        transform: translateY(0%);
+    } to{
+        transform: translateY(5%);
+    }
+}
+
+button:hover {
+    background-image: linear-gradient(blue, rgb(60, 60, 255), rgb(95, 95, 255));
+    animation: 0.5s animabutton;
+}
+
+
+#plog{
+    margin-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    color: #e3b062;
+    text-decoration: none;
+    cursor: default;
+}
